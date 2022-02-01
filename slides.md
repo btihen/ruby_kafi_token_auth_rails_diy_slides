@@ -266,6 +266,15 @@ image: ./images/david-herron-S5jD0E8DOC0-unsplash.jpg
 
 # Questions? / Discussion
 
+Ideas from Puzzle's Ruby-Kafi (1. Feb. 2022)
+https://www.puzzle.ch/de/blog/articles/2022/01/27/tech-kafi-ruby-login-mit-magic-links
+
+How can we further simplify logins (especially on mobile devices)
+* OneLog: https://consent.onelog.ch/#/
+* WebAuthn: https://en.m.wikipedia.org/wiki/WebAuthn
+* Decentralized IDs: https://www.w3.org/TR/did-core/
+* FaceID on iPhones: https://www.pcmag.com/how-to/how-to-log-into-websites-with-face-id-on-iphone-x
+
 ---
 
 # Source - Code & Slides

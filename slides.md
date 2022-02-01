@@ -75,7 +75,7 @@ sgid = user.to_sgid(expires_in: 5.minutes, for: 'user_access')
 access_token = sgid.to_s
 # build an access_url with the token
 access_url = Rails.application.routes.url_helpers
-                  .session_auth_url(token: global_id.to_s)
+                  .session_auth_url(token: access_token)
 # Send the access_url in an email
 UserAuthMailer.send_url(user, url).deliver_now
 
@@ -270,9 +270,13 @@ image: ./images/david-herron-S5jD0E8DOC0-unsplash.jpg
 
 # Source - Code & Slides
 
-* **Rails Code:**
+* **Rails DIY Auth Code:**
 
   https://github.com/btihen/ruby_kafi_token_auth_rails_diy_code
+
+* **Passwordless Devise Code**
+
+  https://github.com/btihen/ruby_kafi_passwordless_devise_code
 
 * **Slides** (start with `yarn slidev`):
 

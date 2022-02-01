@@ -80,7 +80,7 @@ access_url = Rails.application.routes.url_helpers
 UserAuthMailer.send_url(user, url).deliver_now
 
 # VERIFY ACCESS
-auth_token = params[:token]
+auth_token = access_token # auth_token = params[:token]
 auth_user = GlobalID::Locator.locate_signed(auth_token, for: 'user_access')
 ```
 

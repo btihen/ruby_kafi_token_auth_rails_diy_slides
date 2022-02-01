@@ -225,6 +225,7 @@ image: ./images/david-herron-S5jD0E8DOC0-unsplash.jpg
 * Simple user experience
 * As secure as the users email
 * Users find this very easy to use
+* Works with Devise and other User Management tools
 
 ---
 layout: image-right
@@ -266,14 +267,16 @@ image: ./images/david-herron-S5jD0E8DOC0-unsplash.jpg
 # Questions? / Discussion
 
 ---
-layout: image-right
-image: ./images/balazs-busznyak-El5zuQAtfeo-unsplash.jpg
----
 
 # Source - Code & Slides
 
-* **Rails Code:** https://github.com/btihen/ruby_kafi_passwordless_code
-* **Slides** (view with `yarn slidev`): https://github.com/btihen/ruby_kafi_passwordless_slides
+* **Rails Code:**
+
+  https://github.com/btihen/ruby_kafi_token_auth_rails_diy_code
+
+* **Slides** (start with `yarn slidev`):
+
+  https://github.com/btihen/ruby_kafi_token_auth_rails_diy_slides
 
 ---
 
